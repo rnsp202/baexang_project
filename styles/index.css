@@ -1,0 +1,293 @@
+body {
+    width: 1920px;
+    text-align: center;
+    color: #211E1F;
+}
+/*----------------------------------헤더*/
+header {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 54px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 1812px;
+}
+header h1 {}
+header h1 a img {width: 126px;}
+header nav {
+    width: 554px;
+}
+header nav .gnb {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+header nav .gnb li {}
+header nav .gnb li a {
+    font-size: 1.5em;
+}
+header nav .gnb li .sub {display: none;}
+header nav .gnb li .sub li {}
+/*----------------------------------맨위 이미지 공지*/
+main {
+    width: 1812px;
+    margin: auto;
+}
+main .swiper {}
+main #visual_slide {}
+main #visual_slide .swiper-wrapper {}
+main #visual_slide .swiper-wrapper .swiper-slide {
+    background-image: url(../images/main001.jpg);
+    height: 780px; background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 107px;
+    color: #fff;
+}
+main #visual_slide .swiper-wrapper .swiper-slide:nth-child(2) {
+    background-image: url(../images/main002.jpg);
+}
+main #visual_slide .swiper-wrapper .swiper-slide:last-child {
+    background-image: url(../images/main003.jpg);
+}
+main #visual_slide .swiper-wrapper .swiper-slide p {
+    font-size: 2em;
+    padding-top: 433px;
+}
+main #visual_slide .swiper-wrapper .swiper-slide h1 {
+    font-size: 3.375em;
+    padding-top: 34px;
+}
+main #visual_slide .swiper-wrapper .swiper-slide .more_btn {
+    padding-top: 100px;
+}
+main #visual_slide .swiper-wrapper .swiper-slide .more_btn span {}
+main .swiper-pagination,
+main .swiper-button-prev,
+main .swiper-button-next {display: none;}
+/*----------------------------------공통*/
+main .bg {}
+main .bg section {}
+.more_btn2,
+.more_btn {
+    display: flex;
+    position: relative;
+    height: 35px;
+    align-items: center;
+}
+.more_btn2 {
+    text-align: center;
+    margin: 0 auto;
+}
+.more_btn a,
+.more_btn2 a {
+    position: absolute;
+    display: inline-block;
+    z-index: 900;
+    margin-left: 40px;
+}
+.more_btn span,
+.more_btn2 span {
+    position: absolute;
+    display: inline-block;
+    width: 35px; height: 35px;
+    text-align: left; padding-left: 20px;
+    padding-top: 22px;
+    z-index: 800;
+}
+.more_btn a {color: #fff;}
+.more_btn2 a {color: #211E1F;}
+.more_btn span {border: 1px solid #aaa;}
+.more_btn2 span {background-color: #F1F1F1;}
+.int {
+    font-size: 1em;
+    color: #C9AB81;
+}
+main .bg section h2 {
+    margin-top: 24px;
+    font-size: 3.5em;
+}
+.gold {color: #C9AB81;}
+/*----------------------------------bg1*/
+main .bg1 {height: 1332px;}
+main .bg1 section {
+}
+main .bg1 section .int {
+    padding-top: 138px;
+}
+main .bg1 section h2 {}
+main .bg1 section #layout_insight {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 97px;
+    position: relative;
+}
+main .bg1 section #layout_insight .page_num {
+    position: absolute;
+    top: 300px; left: 140px;
+    position: absolute;
+}
+main .bg1 section #layout_insight .page_num .num_it {
+    display: inline-block; font-size: 2.125em;}
+main .bg1 section #layout_insight .page_num .num_all {
+    display: inline-block;
+}
+main .bg1 section #layout_insight #insight_slide {
+    width: 1500px;
+}
+main .bg1 section #layout_insight #insight_slide .swiper-slide {}
+main .bg1 section #layout_insight #insight_slide .swiper-slide .insight {text-align: left;}
+main .bg1 section #layout_insight #insight_slide .swiper-slide .insight img {}
+main .bg1 section #layout_insight #insight_slide .swiper-slide .insight p {}
+main .bg1 section #layout_insight #insight_slide .swiper-slide .insight .gold {}
+main .bg1 section .more_btn2 {}/*----------------------------------bg2*/
+main .bg2 {height: 886px;}
+main .bg2 section {
+    display: block;
+    height: 886px;
+    background-image: url(../images/bg2.png); 
+    background-repeat: no-repeat; }
+main .bg2 section >span {
+    float: left;
+    width: 905px;
+    margin-top: 109px;
+}
+main .bg2 section span img {}
+main .bg2 section .text {
+    display: inline-block;
+    width: 509px; height: 344px;
+    text-align: left;
+    padding-top: 340px;
+}
+main .bg2 section .text .int {}
+main .bg2 section .text h2{}
+main .bg2 section .text p{
+    margin-top: 24px;
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+main .bg2 section .text .more_btn2 {}
+/*----------------------------------bg3*/
+main .bg3 {height: 882px;}
+main .bg3 section {}
+main .bg3 section .int {margin-top: 97px;}
+main .bg3 section h2 {}
+main .bg3 section ul {
+    padding-top: 74px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 1258px;
+    margin: 0 auto;
+}
+main .bg3 section ul li {
+}
+main .bg3 section ul li a {display: inline-block;}
+main .bg3 section ul li a img {}
+main .bg3 section .more_btn2 {
+    margin-top: 74px;
+    margin-left: 860px;
+}
+/*----------------------------------bg4*/
+main .bg4 {height: 1000px;}
+main .bg4 section {height: 950px; background-color: #F8F8F8;}
+main .bg4 section .int {padding-top: 108px;}
+main .bg4 section h2 {}
+main .bg4 section ul {
+    display: inline-block;
+    width: 1260px;
+    margin: 97px auto 0;
+    font-size: 1.375em;
+}
+main .bg4 section ul li:first-child {border-top: 1px solid #211E1F;}
+main .bg4 section ul li {
+    display: inline-block;
+    padding: 40px 60px;
+    border-bottom: 1px solid #211E1F;
+}
+main .bg4 section ul li a {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+main .bg4 section ul li a p {
+    display: inline-block;
+    margin-right: 50px;
+}
+main .bg4 section ul li a p em {}
+main .bg4 section ul li a .notice_title {
+    display: inline-block;
+    width: 700px;
+    text-align: left;
+}
+main .bg4 section ul li a .date {}
+main .bg4 section ul li a span {}
+main .bg4 section ul li a span img {}
+main .bg4 section .more_btn2 {
+    margin-top: 74px;
+    margin-left: 860px;}
+/*----------------------------------footer*/
+footer {
+    height: 618px;
+    background-color: #211E1F; color: #817F81;}
+footer #foot {
+}
+footer #foot .foot_in {}
+footer #foot .foot_in .foot {
+    padding-top: 74px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-align: left;
+    width: 1200px; height: 334px;}
+footer #foot .foot_in .foot .left {
+    display: inline-block;
+    width: 627px; line-height: 2;
+}
+footer #foot .foot_in .foot .left h2 {
+    width: 126px; padding-bottom: 77px;
+}
+footer #foot .foot_in .foot .left h2 img {}
+footer #foot .foot_in .foot .left .manual {}
+footer #foot .foot_in .foot .left .manual #person_menual{}
+footer #foot .foot_in .foot .left .manual a {}
+footer #foot .foot_in .foot .left .manual a {}
+footer #foot .foot_in .foot .left p {}
+footer #foot .foot_in .foot .left .family {}
+footer #foot .foot_in .foot .left .family li {}
+footer #foot .foot_in .foot .left .family li p {
+}
+footer #foot .foot_in .foot .left .family li ul {}
+footer #foot .foot_in .foot .left .family li ul li {}
+footer #foot .foot_in .foot .left .family li ul li a {}
+footer #foot .foot_in .foot .right {
+    display: inline-block;
+    width: 560px;}
+footer #foot .foot_in .foot .right h2 {
+    font-size: 2.875em;
+    padding: 36px 0;
+}
+footer #foot .foot_in .foot .right ul {}
+footer #foot .foot_in .foot .right ul li {
+    border-bottom: 1px solid #817F81;
+}
+footer #foot .foot_in .foot .right ul li p {
+    display: inline;
+}
+footer #foot .foot_in .foot .right ul li input {
+    display: inline;
+    background-color: #211E1F;
+    border: none;
+}
+footer #foot .foot_in .foot .right .more_btn {
+    margin-top: 76px;
+}
+footer #foot .foot_in h3 {}
