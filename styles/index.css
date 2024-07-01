@@ -234,18 +234,19 @@ main .bg4 section .more_btn2 {
     margin-left: 860px;}
 /*----------------------------------footer*/
 footer {
+    position: relative;
     height: 618px;
     background-color: #211E1F; color: #817F81;}
 footer #foot {
 }
-footer #foot .foot_in {}
+footer #foot .foot_in {
+}
 footer #foot .foot_in .foot {
     padding-top: 74px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
-    align-items: center;
     text-align: left;
     width: 1200px; height: 334px;}
 footer #foot .foot_in .foot .left {
@@ -253,20 +254,35 @@ footer #foot .foot_in .foot .left {
     width: 627px; line-height: 2;
 }
 footer #foot .foot_in .foot .left h2 {
-    width: 126px; padding-bottom: 77px;
+    padding-top: 36px;
+    width: 126px; padding-bottom: 50px;
 }
 footer #foot .foot_in .foot .left h2 img {}
-footer #foot .foot_in .foot .left .manual {}
-footer #foot .foot_in .foot .left .manual #person_menual{}
+footer #foot .foot_in .foot .left .manual {
+    margin-bottom: 20px;
+}
+footer #foot .foot_in .foot .left .manual #person_menual{
+    color: #F1F1F1; font-weight: 600; margin-right: 30px;
+}
+footer #foot .foot_in .foot .left .manual a {
+    color: #817F81;
+}
 footer #foot .foot_in .foot .left .manual a {}
-footer #foot .foot_in .foot .left .manual a {}
-footer #foot .foot_in .foot .left p {}
-footer #foot .foot_in .foot .left .family {}
+footer #foot .foot_in .foot .left p {
+    margin-bottom: 20px;}
+footer #foot .foot_in .foot .left .family {
+    margin-top: 60px;}
 footer #foot .foot_in .foot .left .family li {}
 footer #foot .foot_in .foot .left .family li p {
+    font-size: 1.25em;
+    width: 244px; line-height: 62px;
+    border: 2px solid #817F81;
+    padding-left: 30px;
 }
 footer #foot .foot_in .foot .left .family li ul {}
-footer #foot .foot_in .foot .left .family li ul li {}
+footer #foot .foot_in .foot .left .family li ul li {
+    display: none;
+}
 footer #foot .foot_in .foot .left .family li ul li a {}
 footer #foot .foot_in .foot .right {
     display: inline-block;
@@ -275,19 +291,42 @@ footer #foot .foot_in .foot .right h2 {
     font-size: 2.875em;
     padding: 36px 0;
 }
-footer #foot .foot_in .foot .right ul {}
+footer #foot .foot_in .foot .right ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+footer #foot .foot_in .foot .right ul li:last-child {
+    /* padding-bottom: 30px; */
+}
+footer #foot .foot_in .foot .right ul li:nth-child(1),
+footer #foot .foot_in .foot .right ul li:nth-child(2) {
+    width: 280px;
+    display: inline-block;
+}
 footer #foot .foot_in .foot .right ul li {
+    display: block;
+    width: 100%;
     border-bottom: 1px solid #817F81;
+    margin-bottom: 20px;
 }
 footer #foot .foot_in .foot .right ul li p {
-    display: inline;
+    display: inline; font-size: 1.5em;
+}
+footer #foot .foot_in .foot .right ul li #message {
+    display: block;
 }
 footer #foot .foot_in .foot .right ul li input {
     display: inline;
     background-color: #211E1F;
     border: none;
+    margin-bottom: 8px;
 }
 footer #foot .foot_in .foot .right .more_btn {
     margin-top: 76px;
 }
-footer #foot .foot_in h3 {}
+footer #foot .foot_in h3 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 16px;
+}
